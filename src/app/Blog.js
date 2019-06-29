@@ -27,6 +27,7 @@ class Blog extends React.Component {
     }
 
     render() {
+        
         return (
             <div>
                 <PageHeader color="is-info" title="Zoom Out Blog Posts">
@@ -34,9 +35,10 @@ class Blog extends React.Component {
                 </PageHeader>
                 <br/>
                 <PageContent>
-                { this.state.posts.map(({fields}, i) =>
+                {/* { this.state.posts.map(({fields}, i) =>
                     <BlogItem key={i} {...fields} />
-                )}
+                )} */}
+                { this.state.posts.map() }
                 </PageContent>
             </div>
         )

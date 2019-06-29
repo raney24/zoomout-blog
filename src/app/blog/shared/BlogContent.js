@@ -1,19 +1,28 @@
 import React from 'react'
 import * as Markdown from 'react-markdown'
-const BlogContent = (props) => (
+import { Link } from 'react-router-dom'
+
+const BlogContent = (post) => (
     <article className="media">
         <div className="media-content">
             <div className="content">
-                <h1>{props.title}</h1>
+                <h1>
+                    <Link to={{
+                        pathname: `/blog/${post.path}`,
+                        state: { post }
+                    }}>
+                    {post.title}
+                    </Link>
+                </h1>
                 <Markdown
                 source={
-                    props.limit
-                    ? props.content.split(" ").splice(0,props.limit).join(" ").concat('...')
-                    : props.content
+                    post.limit
+                    ? post.content.split(" ").splice(0, post.limit).join(" ").concat('...')
+                    : post.content
                 }
                 />
             </div>
-        { props.children }
+        { post.children }
         </div>
     </article>
 )

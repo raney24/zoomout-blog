@@ -47,9 +47,6 @@ class Header extends React.Component {
               Posts
             </NavLink>
             <a href="/about" className="navbar-item">
-              <span className="icon" style={{ marginRight: 5 }}>
-                <i className="fab fa-lg fa-medium"></i>
-              </span>
               About Us
             </a>
             <a href="/contact" className="navbar-item" >
