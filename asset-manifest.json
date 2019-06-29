@@ -1,13 +1,13 @@
 {
-  "main.css": "/zoomout-blog/static/css/main.4e3080a0.chunk.css",
-  "main.js": "/zoomout-blog/static/js/main.df491006.chunk.js",
-  "main.js.map": "/zoomout-blog/static/js/main.df491006.chunk.js.map",
-  "runtime~main.js": "/zoomout-blog/static/js/runtime~main.03e36cc9.js",
-  "runtime~main.js.map": "/zoomout-blog/static/js/runtime~main.03e36cc9.js.map",
-  "static/js/2.36827d89.chunk.js": "/zoomout-blog/static/js/2.36827d89.chunk.js",
-  "static/js/2.36827d89.chunk.js.map": "/zoomout-blog/static/js/2.36827d89.chunk.js.map",
-  "index.html": "/zoomout-blog/index.html",
-  "precache-manifest.a71b04f7f52a5c497249a97172bd0e1e.js": "/zoomout-blog/precache-manifest.a71b04f7f52a5c497249a97172bd0e1e.js",
-  "service-worker.js": "/zoomout-blog/service-worker.js",
-  "static/css/main.4e3080a0.chunk.css.map": "/zoomout-blog/static/css/main.4e3080a0.chunk.css.map"
+  "main.css": "/static/css/main.4e3080a0.chunk.css",
+  "main.js": "/static/js/main.df491006.chunk.js",
+  "main.js.map": "/static/js/main.df491006.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.48de1593.chunk.js": "/static/js/2.48de1593.chunk.js",
+  "static/js/2.48de1593.chunk.js.map": "/static/js/2.48de1593.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.24b9cb84974916c4f7f9ce64fe53bddf.js": "/precache-manifest.24b9cb84974916c4f7f9ce64fe53bddf.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.4e3080a0.chunk.css.map": "/static/css/main.4e3080a0.chunk.css.map"
 }
