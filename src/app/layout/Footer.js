@@ -4,6 +4,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import assets from '../../assets/assets.js'
+import './footer.css'
 
 library.add(fab, faCheckSquare, faCoffee)
 
@@ -17,10 +18,10 @@ const Footer = () => (
             <FontAwesomeIcon icon="coffee" style={{ margin: '0 10px 0 5px'}} /> Kyle's Calendar Link
           </a>
           <br></br>
-          <a href="https://www.facebook.com/kayla.dubois.7">
+          <a href="https://www.facebook.com/kayla.dubois.7" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={['fab', 'facebook-square']} size="2x" style={{margin: '10px 5px', color: '#ff92a8'}} />
           </a>
-          <a href="https://www.facebook.com/raney24">
+          <a href="https://www.facebook.com/raney24" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={['fab', 'facebook-square']} size="2x" style={{margin: '10px 5px'}} />
           </a>
         </div>
