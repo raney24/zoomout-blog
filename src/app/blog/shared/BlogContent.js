@@ -11,7 +11,7 @@ const BlogContent = (post) => (
                         pathname: `/blog/${post.path}`,
                         state: { post }
                     }}>
-                    {post.title}
+                        { post.title }
                     </Link>
                 </h1>
                 <Markdown
